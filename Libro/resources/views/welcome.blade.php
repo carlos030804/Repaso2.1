@@ -12,6 +12,8 @@
         <p>
             {{ __('Explora nuestra última colección de mangas y novelas ligeras que están revolucionando el mundo de la literatura. ¡Encuentra tus próximos favoritos aquí!') }}
         </p>
+        <img src="<?= asset('images/Mangas.jpeg') ?>" alt="Libreria otaku"> <br>
+
         <small class="text-muted">{{ __('Publicado el ') }}{{ date('d-m-Y') }}</small>{{-- reutilizacion de echo --}}
     </div>
 </div>

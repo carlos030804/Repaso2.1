@@ -56,7 +56,7 @@
             </div>
             <div class="mb-3">
                 <label for="emailEditorial" class="form-label">{{__('Email de Editorial') }}</label>
-                <input type="email" class="form-control" name="txtEmailEditorial" id="emailEditorial" value="{{old('txtEmailEditorial')}}">
+                <input type="text" class="form-control" name="txtEmailEditorial" id="emailEditorial" value="{{old('txtEmailEditorial')}}">
                 <small class="text-danger fst-bold">{{ $errors->first('txtEmailEditorial') }}</small>
             </div>
     </div>
@@ -64,7 +64,7 @@
     <div class="card-footer text-muted">
 
     <div class="d-grid gap-2 mt-2 mb-1">
-        <button type="submit" class="btn btn-success btn-sm"> {{__('Save Book') }}</button>
+        <button type="submit" class="btn btn-success btn-sm"> {{__('Guardar Libro') }}</button>
     </div>
 </div>
 
